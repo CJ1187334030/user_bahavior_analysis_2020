@@ -16,7 +16,7 @@ object PageView {
     env.setParallelism(1)
     env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime)
 
-    val userBehaviorDS: DataStream[UserBehavior] = env.readTextFile("D:\\study\\IDEA\\user_bahavior_analysis_2020\\hot_items_analysis\\src\\main\\resources\\UserBehavior.csv")
+    val userBehaviorDS: DataStream[UserBehavior] = env.readTextFile("E:\\study\\IDEA\\user_bahavior_analysis_2020\\hot_items_analysis\\src\\main\\resources\\UserBehavior.csv")
       .map {
         log =>
           val strings: Array[String] = log.split(",")
