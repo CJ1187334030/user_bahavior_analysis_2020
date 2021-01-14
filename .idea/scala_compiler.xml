@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="user_bahavior_analysis_2020,network_flow_analysis,hot_items_analysis" />
+    <profile name="Maven 1" modules="hot_items_analysis,network_flow_analysis,user_bahavior_analysis_2020" />
   </component>
 </project>
