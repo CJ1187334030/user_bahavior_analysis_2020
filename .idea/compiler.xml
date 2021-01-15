@@ -7,7 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hot_items_analysis" />
+        <module name="login_fail_detect" />
+        <module name="market_analysis" />
         <module name="network_flow_analysis" />
+        <module name="order_timeout_detect" />
+        <module name="Tx_detect" />
       </profile>
     </annotationProcessing>
   </component>

@@ -11,11 +11,15 @@
     <modules>
         <module>hot_items_analysis</module>
         <module>network_flow_analysis</module>
+        <module>market_analysis</module>
+        <module>login_fail_detect</module>
+        <module>order_timeout_detect</module>
+        <module>Tx_detect</module>
     </modules>
 
     <properties>
-        <flink.version>1.7.2</flink.version>
-        <scala.binary.version>2.11</scala.binary.version>
+        <flink.version>1.10.1</flink.version>
+        <scala.binary.version>2.12</scala.binary.version>
         <kafka.version>2.2.0</kafka.version>
     </properties>
 
